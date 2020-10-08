@@ -1,0 +1,33 @@
+.postsBlock {
+    padding: 10px;
+}
+
+.posts {
+    margin: 10px 0 0 0;
+}
+
+.message {
+    word-break: break-all;
+}
+
+/*Form*/
+.form textarea {
+    background-color: #4d4d4d;
+    width: 315px;
+    min-height: 100px;
+    resize: none;
+}
+
+.form__button {
+    margin: 10px 0 0 0;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffa900;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.form__button:hover {
+    background-color: rgba(255, 169, 0, 0.73);
+}

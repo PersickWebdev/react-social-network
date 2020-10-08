@@ -1,0 +1,47 @@
+.user__container {
+    width: 150px;
+    margin: 20px 0 0 0;
+    padding: 20px;
+    border: 1px solid #4d4d4d;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.avatar {
+    width: 100px;
+    height: 120px;
+}
+
+.selectedPage {
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.user__dataBox {
+    padding: 5px;
+}
+.user__location {
+    margin: 15px 0 0 0;
+}
+
+.user__button {
+    margin: 10px 0 0 0;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffa900;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.user__button:hover {
+    background-color: rgba(255, 169, 0, 0.73);
+}
+
+.user__nameStatusBox {
+    margin: 10px 0 0 0;
+}

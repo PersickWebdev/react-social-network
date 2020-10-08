@@ -1,0 +1,26 @@
+.appWrapper {
+    display: grid;
+    grid-template-areas: "h h" "n c";
+    grid-template-rows: 150px 1fr;
+    grid-template-columns: 2fr 10fr;
+    grid-gap: 10px;
+    font-family: sans-serif;
+}
+
+.appWrapperContent {
+    grid-area: c;
+    background-color: #4d4d4d;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 20px;
+    color: #ffffff;
+
+    backgroundImage: url('./assets/images/headerBackground05.jpg');
+    backgroundRepeat: 'no-repeat';
+    backgroundSize: 'cover';
+}
+
+.content {
+    grid-area: c;
+    background-color: #4d4d4d;
+}

@@ -1,0 +1,27 @@
+.friends__heading {
+    color: #ffffff;
+}
+
+.friends__layout {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.friend__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px 0 0;
+}
+
+.friend__avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.links a {
+    text-decoration: none;
+    color: #ffffff;
+}
